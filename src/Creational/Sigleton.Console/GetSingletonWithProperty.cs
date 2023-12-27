@@ -1,18 +1,16 @@
-﻿namespace Singleton.Console
-{
-    public class SingletonWithProperty
-    {
-        private SingletonWithProperty() { }
-        private static SingletonWithProperty? instance;
+﻿namespace Singleton.Console;
 
-        public static SingletonWithProperty Instance
+internal class SingletonWithProperty
+{
+    private SingletonWithProperty() { }
+    private static SingletonWithProperty? instance;
+
+    public static SingletonWithProperty Instance
+    {
+        get
         {
-            get
-            {
-                instance ??= new SingletonWithProperty();
-                return instance;
-            }
+            instance ??= new SingletonWithProperty();
+            return instance;
         }
     }
 }
-    
