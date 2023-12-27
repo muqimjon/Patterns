@@ -14,3 +14,16 @@ internal class SingletonWithProperty1
         }
     }
 }
+
+internal class SingletonWithProperty2
+{
+    private SingletonWithProperty2() { }
+
+    private static readonly SingletonWithProperty2 instance = new();
+    public static SingletonWithProperty2 Instance
+    {
+        get { return instance; }
+    }
+
+    // other members
+}
