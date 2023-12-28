@@ -5,8 +5,9 @@ using Singleton.Console;
 Console.WriteLine("Hello, World!");
 
 
-var function = SingletonWithFunction.GetInstance();
-var property1 = SingletonWithProperty1.Instance;
-var property2 = SingletonWithProperty2.Instance;
+var eager = SingletonEager.GetInstance();
+var lazy = SingletonLazy.GetInstance();
+var property1 = SingletonLazyWithProperty.Instance;
+var property2 = SingletonEagerWithProperty.Instance;
 
 // function.{use another members}

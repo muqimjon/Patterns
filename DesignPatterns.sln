@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A523622-755
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{246719FC-4AFC-470C-9229-6808F7CBAFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigleton.Console", "src\Creational\Sigleton.Console\Sigleton.Console.csproj", "{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigleton.Console", "src\Creational\Sigleton.Console\Sigleton.Console.csproj", "{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.Console", "src\Creational\Prototype.Console\Prototype.Console.csproj", "{F2E5824E-817C-42D5-891D-B1CB5228F7D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E5824E-817C-42D5-891D-B1CB5228F7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E5824E-817C-42D5-891D-B1CB5228F7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E5824E-817C-42D5-891D-B1CB5228F7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E5824E-817C-42D5-891D-B1CB5228F7D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +32,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{246719FC-4AFC-470C-9229-6808F7CBAFD6} = {2A523622-755F-4647-A694-3FD0A6DE6CE7}
 		{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F} = {246719FC-4AFC-470C-9229-6808F7CBAFD6}
+		{F2E5824E-817C-42D5-891D-B1CB5228F7D0} = {246719FC-4AFC-470C-9229-6808F7CBAFD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C90B42B-7B0C-4DBC-9FB4-4D9703486BC8}
 	EndGlobalSection
 EndGlobal
