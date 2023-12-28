@@ -14,15 +14,3 @@ internal class SingletonWithFunction1
 
     // other methods
 }
-
-internal class SingletonWithFunction2
-{
-    private static SingletonWithFunction2 instance = new();
-
-    private SingletonWithFunction2() { }
-
-    public static SingletonWithFunction2 GetInstance()
-        => instance;
-
-    // other methods
-}
