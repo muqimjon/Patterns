@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A523622-755
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{246719FC-4AFC-470C-9229-6808F7CBAFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigleton.Console", "src\Creational\Sigleton.Console\Sigleton.Console.csproj", "{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigleton.Console", "src\Creational\Sigleton.Console\Sigleton.Console.csproj", "{E5715BE4-D424-4A32-B4F0-6FD7D9CD275F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
