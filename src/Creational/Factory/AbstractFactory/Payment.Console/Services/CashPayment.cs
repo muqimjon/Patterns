@@ -1,8 +1,8 @@
-﻿using FactoryMethod.Console.Interfaces;
+﻿using Payment.Console.Interfaces;
 
-namespace FactoryMethod.Console.Services;
+namespace Payment.Console.Services;
 
-public class CashPayment : IPayment
+internal class CashPayment : IPayment
 {
     public void ProcessPayment(decimal amount)
     {

@@ -1,6 +1,6 @@
-﻿using FactoryMethod.Console.Interfaces;
+﻿using Payment.Console.Interfaces;
 
-namespace FactoryMethod.Console.Services;
+namespace Payment.Console.Services;
 
 internal class CreditCardPayment : IPayment
 {

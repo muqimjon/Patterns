@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod.Console.Interfaces;
+﻿namespace Payment.Console.Interfaces;
 
 internal interface IPayment
 {

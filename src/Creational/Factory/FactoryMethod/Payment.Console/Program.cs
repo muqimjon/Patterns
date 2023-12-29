@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using FactoryMethod.Console.Commons;
-using FactoryMethod.Console.Interfaces;
+using Payment.Console.Commons;
+using Payment.Console.Interfaces;
 
 PaymentFactory creditCardFactory = new CreditCardPaymentFactory();
 IPayment creditCardPayment = creditCardFactory.CreatePayment();

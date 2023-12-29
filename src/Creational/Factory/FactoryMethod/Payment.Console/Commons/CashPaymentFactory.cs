@@ -1,7 +1,7 @@
-﻿using FactoryMethod.Console.Services;
-using FactoryMethod.Console.Interfaces;
+﻿using Payment.Console.Services;
+using Payment.Console.Interfaces;
 
-namespace FactoryMethod.Console.Commons;
+namespace Payment.Console.Commons;
 
 internal class CashPaymentFactory : PaymentFactory
 {

@@ -1,6 +1,6 @@
-﻿using FactoryMethod.Console.Interfaces;
+﻿using Payment.Console.Interfaces;
 
-namespace FactoryMethod.Console.Commons;
+namespace Payment.Console.Commons;
 
 internal abstract class PaymentFactory
 {
