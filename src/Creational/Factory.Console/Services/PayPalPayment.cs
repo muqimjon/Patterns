@@ -4,8 +4,8 @@ namespace Factory.Console.Services;
 
 internal class PayPalPayment : IPayment
 {
-    public void Pay(double amount)
+    public void Pay(decimal amount)
     {
-        System.Console.WriteLine($"Succesfully paid {amount} to merchant using a Pay Pal");
+        System.Console.WriteLine($"Succesfully paid {amount:C} to merchant using a Pay Pal");
     }
 }

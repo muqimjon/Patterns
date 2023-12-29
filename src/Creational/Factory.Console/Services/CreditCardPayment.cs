@@ -4,8 +4,8 @@ namespace Factory.Console.Services;
 
 public class CreditCardPayment : IPayment
 {
-    public void Pay(double amount)
+    public void Pay(decimal amount)
     {
-        System.Console.WriteLine($"Succesfully paid {amount} to merchant using a Credit Card");
+        System.Console.WriteLine($"Succesfully paid {amount:C} to merchant using a Credit Card");
     }
 }

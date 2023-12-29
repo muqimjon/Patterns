@@ -5,4 +5,4 @@ using Factory.Console.Enums;
 using Factory.Console.Interfaces;
 
 IPayment payment = PaymentFactory.GetPayment(PaymentMethod.ApplePay);
-payment.Pay(1000.00D);
+payment.Pay(12000.00M);

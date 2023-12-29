@@ -1,6 +1,6 @@
 ﻿namespace Factory.Console.Interfaces;
 
-public interface IPayment
+internal interface IPayment
 {
-    void Pay(double amount);
+    void Pay(decimal amount);
 }
